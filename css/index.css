@@ -1,0 +1,285 @@
+main{
+    width: 100%;
+    height: 100vh;
+
+   
+    background-image: url(../images/potrait.png),url(../images//pbutterfly.jpg);
+    background-size: 120vh,cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  /*  display: flex;*/
+    justify-content: center;
+   /* align-items: center;*/
+    
+
+}
+.main-intro{
+    position: relative;left: 97px;top: 200px;
+}
+main .main-intro h1{
+    font-size: 6.8rem;
+    line-height: 1.1;
+}
+main .main-intro p/*,main .main-quotes p*/{
+    font-size: 2.0rem;
+   /* line-height: 1.6;*/
+}
+/*main a{
+    margin-top: 30px;
+    font-size: 1.8rem;
+    display: block;
+    background-color: #D4FFE7;
+    padding: 10px 20px;
+    width: fit-content;
+}*
+main .main-quote p {
+    border-left: 4px solid;
+    border-color: #D4FFE7;
+    padding-left: 20px;
+    margin: 40px 0px;
+
+}
+/*main .main-intro{
+    position: relative;
+    right: 28vh;
+    
+}/*
+main .main-quote{
+    position: relative;
+    left: 14vh;
+
+}
+/* categories
+.index-category{
+    width:100%;
+    padding:60px 0px;
+    background: #D4FFE7;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.index-category h3{
+    font-size: 2.4rem;
+    text-align: center;
+    flex-basis: 100%;
+}
+.index-category-box{
+width: 16rem;
+height: 160px;
+background-color: #936490;
+display: flex;
+justify-content: center ;
+align-items: center;
+}
+.index-category-box p{
+font-size: 2.0rem;
+line-height: 1.75;
+    
+}
+@media (max-width:600px){
+    main{
+        width: 100%;
+        height: 100vh;
+    
+       
+        background-image:/* url(../images/potrait.png),*url(../images//pbutterfly.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+       /* display: flex;*
+        justify-content: center;
+        align-items: center;
+        
+    
+    }/*
+    main .main-intro h1{
+        font-size: 2.8rem;
+        line-height: 1.1;
+        
+    }
+    main .main-intro p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    main a{
+        margin-top: 30px;
+        font-size: 1.5rem;
+        display: block;
+        background-color: #D4FFE7;
+        padding: 10px 20px;
+        width: fit-content;
+    }
+    main .main-quote p {
+        border-left: 4px solid;
+        border-color: #D4FFE7;
+        padding-left: 20px;
+        margin: 40px 0px;
+    
+    }
+    main .main-intro{
+      /*  position: relative;
+        right: 28vh;*
+        padding-left: 30px;
+        display: ;
+        
+    }
+    main .main-quote{
+        display: none;
+    
+    }
+  
+    
+    }
+    /* for tablets*
+    @media only screen and (max-width:768px) {
+        .wrapper-main{ 
+            width: 100%;
+        }
+        main{
+            width: 100%;
+            height: 100vh;
+        
+           
+            background-image: url(../images/potrait.png),url(../images//pbutterfly.jpg);
+            background-size: 120vh,cover;
+            background-repeat: no-repeat;
+            background-position:center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        
+        }
+        main .main-intro h1{
+            font-size: 6.8rem;
+            line-height: 1.1;
+        }
+        main .main-intro p{
+            font-size: 2.0rem;
+            line-height: 1.6;
+        }
+        
+        }
+        main .main-intro{
+            position: relative;
+            right: 8vh;
+            
+        }
+        main .main-quote{
+        display: none;
+        
+        }
+            }
+    
+    
+    }/*
+    main .main-intro h1{
+        font-size: 40px;
+        line-height: 80px;
+    }
+    main .main-intro p,main .main-quotes p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    main a{
+        margin-top: 30px;
+        font-size: 18px;
+        display: block;
+        background-color: #D4FFE7;
+        padding: 10px 20px;
+        width: fit-content;
+    }
+    main .main-quote p {
+        border-left: 4px solid;
+        border-color: #D4FFE7;
+        padding-left: 20px;
+        margin: 40px 0px;
+    
+    }
+    main .main-intro{
+        position: relative;
+        right: 28vh;
+        
+    }
+    main .main-quote{
+        position: relative;
+        left: 14vh;
+    
+    }
+    /* categories
+    .index-category{
+        width:100%;
+        padding:60px 0px;
+        background: #D4FFE7;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .index-category h3{
+        font-size: 24px;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .index-category-box{
+    width: 160px;
+    height: 160px;
+    background-color: #936490;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    }
+    .index-category-box p{
+    font-size: 20px;
+    line-height: 22px;
+        
+    }
+}*/
+@media only screen and (max-width:600px) {
+    main{
+        width: 100%;
+        height: 100vh;
+    
+       
+        background-image: url(../images/potrait.png),url(../images//pbutterfly.jpg);
+        background-size: 50vh,cover;
+        background-repeat: no-repeat;
+        background-position:center;
+      /*  display: flex;*/
+        justify-content: center;
+       /* align-items: center;*/
+        
+    
+    }
+    .main-intro{
+        position: absolute;left: 60px;top: 180px;
+    }
+    main .main-intro h1{
+        font-size: 4.7rem;
+        line-height: 1.1;
+       /* margin-top: 20px;*/
+    }
+    main .main-intro p/*,main .main-quotes p*/{
+        font-size: 1.7rem;
+        padding-top: 450px;
+        /*color: #070009;*
+        font-weight: bold;
+       /* line-height: 1.6;*/
+    }
+}
+/*
+@media only screen and(min-width:768px) {
+    .main-intro{
+        position: absolute;left: 150px;top: 50px;
+    }
+    main .main-intro h1{
+        font-size: 4.2rem;
+        line-height: 1.1;
+
+    }
+    main .main-intro p/*,main .main-quotes p*{
+        font-size: 1.5rem;
+       /* line-height: 1.6;*
+    }
+}*/

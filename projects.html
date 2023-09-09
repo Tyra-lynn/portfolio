@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body>
+    <header class="header-main">
+        <div class="header-main-logo">
+        <img src="images/weblogo-removebg-preview.png" alt="logo">
+            <nav class="header-main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="achievements.html">ACHIEVEMENTS</a></li>
+                    <li><a href="skills.html">SKILLS</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+        
+        
+    </header>
+    <div class="projects-heading">
+        <h1> My Projects</h1>
+        <p> Below are some of my coding projects</p>
+    </div>
+    <section class="projects">
+        <p>The following program outputs the end time of an event</p>
+        <div class="projects-text">
+            <p>program holiday_homework;<br>
+                var h,s,d,r: integer;<br>
+                    
+                begin  <br>
+                  writeln('start hour:');<br>
+                  readln(h);<br>
+                  writeln('start minute:');<br>
+                  readln(s);<br>
+                  writeln('duration of event :');<br>
+                  readln(d);<br>
+                  r:=(s+d)-60;<br>
+                  if(s+d<60)then<br>
+                    write('end minute:',s+d)<br>
+                  else if(s+d<120)then<br> 
+                 writeln('end minute:',(s+d)-60)
+                  else <br>
+                    writeln('end minute:',r mod 60);<br>
+                    if(s+d<60)then<br>
+                    writeln('end hour:',h)<br>
+                  else<br>
+                    writeln('end hour:',h+((s+d) div 60));<br>
+                    writeln('end time= ',h+((s+d) div 60),':',r mod 60);<br>
+                  readln;   <br>
+                end.</p>
+                <div class="repository">
+                    <p> <a href="https://github.com/Tyra-lynn/Cs-website">Click here go to the repository</a></p>
+                    
+                </div>
+                
+        </div>
+        
+    </section>

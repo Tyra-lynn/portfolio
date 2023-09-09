@@ -1,0 +1,243 @@
+
+.contact{
+  /*  position: relative;
+    padding: 50px 100px;*/
+    /*display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    /*column-gap: 20vh;*
+    height: 100vh;
+    background-image:url(../images/contactimg.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+.content h2{
+    font-size: 7.0rem;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.content p{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*  items will be put in the centr by justify and have their own"colum"*/
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*margin-top: 100px;
+    /*align-items: center;*/
+}/*width makes the space between icons and table bigger. flex puts the icons next to each othr.flex direction puts the icons in form of a colum one up and one down*/
+contactinfo{
+    width: 50%;
+    display: flex;
+   flex-direction: column;
+}
+.box{
+   /* position: relative;
+    padding: 50x 0px;*/
+    display: flex;
+}/*
+.contact h2,.contact p{
+text-align: center;
+}
+.contact p{
+    font-size: 2.0rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}*/
+.box{
+    padding-bottom: 5px;
+    padding-right: 500px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    background: #cf85d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    
+}
+
+
+.text{
+   /* display: flex;
+    margin-left: 20px;*/
+    font-size: 16px;
+   /* flex-direction: column;*/
+}
+.contactform
+{
+    width: 40%;
+    height: 60vh;
+    padding: 40px;
+    background:#cb84ea ;
+    
+}
+.contactform h2{
+    font-size: 3.0rem;
+    padding-bottom: 13px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.form{
+    width: 90%;
+    max-width: 600px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+   /* outline: 0;*/
+    border: 1px solid #e3d5e6;
+}
+
+button{
+    text-align: center;
+    padding: 10px;
+   /* color: #d788e3;*/
+   /* outline: none;*/
+    border: 1px solid #460c4f;
+    width: 100%;
+    cursor: pointer;
+}
+/*
+@media only screen {
+    
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,  .contactform .inputbox .textarea{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16;
+    margin: 10px 0px;
+   /* border: none;
+    border-bottom: 2px solid #b959b3;
+    outline: none;
+    resize: none;
+    
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0px;
+    font-size: 16;
+    margin: 10px 0px;
+    pointer-events: none;
+}*/
+@media  only screen and (max-width:600px){
+    
+    .content h2{
+        font-size: 5.0rem;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .content p{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*  items will be put in the centr by justify and have their own"colum"*/
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*margin-top: 100px;
+        /*align-items: center;*/
+    }/*width makes the space between icons and table bigger. flex puts the icons next to each othr.flex direction puts the icons in form of a colum one up and one down*/
+    .contactinfo{
+        width: 80%;
+        margin-left: 50px;
+       /* display: flex;
+       flex-direction: column;*/
+    }
+    .box{
+       /* position: relative;
+        padding: 50x 0px;*/
+        display: flex;
+    }/*
+    .contact h2,.contact p{
+    text-align: center;
+    }
+    .contact p{
+        font-size: 2.0rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }*/
+    .box{
+        padding-bottom: 5px;
+       /* padding-right: 500px;*/
+    }
+    .icon{
+        width: 60px;
+        height: 60px;
+        background: #cf85d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 2.3rem;
+        
+    }
+    
+    
+    .text{
+        display: flex;
+        padding-left: 20px;
+        font-size: 16px;
+       flex-direction: column;
+    }
+    .contactform
+    {
+        width: 80%;
+        height: 60vh;
+        margin-left: 40px;
+        margin-top: 20px;
+        background:#cb84ea;
+        
+    }
+    .contactform h2{
+        font-size: 3.0rem;
+        padding-bottom: 13px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        
+    }
+    .form{
+        width: 90%;
+        max-width: 600px;
+    }
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+       /* outline: 0;*/
+        border: 1px solid #e3d5e6;
+    }
+    
+    button{
+        text-align: center;
+        padding: 10px;
+       /* color: #d788e3;*/
+       /* outline: none;*/
+        border: 1px solid #460c4f;
+        width: 100%;
+        cursor: pointer;
+    }
+}
